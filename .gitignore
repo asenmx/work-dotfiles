@@ -1,0 +1,29 @@
+# Ignore everything
+*
+!*/
+
+# ===== WHITELIST FILES =====
+!/.gitignore
+!/.Xresources
+!/.bashrc
+!/.zshrc
+!/background.jpg
+!/greenclip.toml
+!/mimeapps.list
+
+# ===== WHITELIST FOLDERS (AND THEIR CONTENTS) =====
+!/bspwm/**
+!/dunst/**
+!/picom/**
+!/nvim/**
+!/polybar/**
+!/wezterm/**
+!/sxhkd/**
+!/rofi/**
+
+# ===== BLACKLIST TEMP FILES =====
+**/*.log
+**/*.swp
+**/*.bak
+**/*~
+
