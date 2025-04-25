@@ -10,6 +10,7 @@
 !/background.jpg
 !/greenclip.toml
 !/mimeapps.list
+!/setup.sh
 
 # ===== WHITELIST FOLDERS (AND THEIR CONTENTS) =====
 !/bspwm/**
