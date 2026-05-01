@@ -1,8 +1,6 @@
-return {
-    {
-        "nvim-treesitter/nvim-treesitter-context",
-        dependencies = { "nvim-treesitter/nvim-treesitter" },
-        config = function()
+vim.pack.add({
+        "https://github.com/nvim-treesitter/nvim-treesitter-context",
+    })
             require("treesitter-context").setup({
                 enable = true,   -- Enable this plugin (Can be enabled/disabled later via commands)
                 multiwindow = false, -- Enable multiwindow support.
@@ -18,6 +16,3 @@ return {
                 zindex = 20, -- The Z-index of the context window
                 on_attach = nil, -- (fun(buf: integer): boolean) return false to disable
             })
-        end,
-    },
-}

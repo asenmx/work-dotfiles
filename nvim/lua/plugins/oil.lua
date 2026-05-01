@@ -1,7 +1,5 @@
-return {
-  'stevearc/oil.nvim',
-  ---@module 'oil'
-  ---@type oil.SetupOpts
-  opts = {},
-  dependencies = { { "echasnovski/mini.icons", opts = {} } },
-}
+vim.pack.add({ 
+    "https://github.com/stevearc/oil.nvim",
+    "https://github.com/echasnovski/mini.icons",
+})
+require("oil").setup()
